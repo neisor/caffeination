@@ -7,7 +7,7 @@ setuptools.setup(
   name = 'caffeination',
   version = '0.1', 
   license='MIT',
-  description = 'Caffeination makes sure your computes does not go to sleep. It is a sleep preventer.',
+  description = 'Caffeination makes sure your computer does not go to sleep.',
   long_description = long_description,
   long_description_content_type="text/markdown",
   author = 'Antonio Raffaele Iannaccone',
