@@ -1,10 +1,9 @@
-from distutils.core import setup
 import setuptools
 
 with open("README.md", "r") as f:
     long_description = fh.read()
     
-setup(
+setuptools.setup(
   name = 'caffeination',
   packages = ['caffeination'],
   version = '0.1', 
@@ -19,12 +18,12 @@ setup(
   install_requires=[
           'pyautogui'
       ],
+  packages=setuptools.find_packages(),
   classifiers=[
     'Development Status :: 5 - Production/Stable',
     'Operating System :: OS Independent',
     'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: 3'
   ],
-  packages=setuptools.find_packages(),
   python_requires='>=3.6'
 )
