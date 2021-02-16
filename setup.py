@@ -27,7 +27,7 @@ setuptools.setup(
   python_requires='>=3.6',
   entry_points={
       'console_scripts': [
-          'caffeination=caffeination:main'
+          'caffeination=caffeination.caffeination:main' # Run caffeination to launch main function in caffeination.py inside caffeination folder
           ]
       }
 )
