@@ -10,10 +10,10 @@ setuptools.setup(
   description = 'Caffeination makes sure your computes does not go to sleep. It is a sleep preventer.',
   long_description = long_description,
   long_description_content_type="text/markdown",
-  author = 'Antonio Raffaele Iannaccone',                   # Type in your name
-  author_email = 'antonio@ariseo.sk',      # Type in your E-Mail
-  url = 'https://github.com/neisor/caffeination',   # Provide either the link to your github or to your website
-  keywords = ['caffeination', 'caffe', 'caffeine', 'sleep preventer'],   # Keywords that define your package best
+  author = 'Antonio Raffaele Iannaccone',
+  author_email = 'antonio@ariseo.sk',
+  url = 'https://github.com/neisor/caffeination',
+  keywords = ['caffeination', 'caffe', 'caffeine', 'sleep preventer'],
   install_requires=[
           'pyautogui'
       ],
