@@ -14,7 +14,7 @@ setup(
   author = 'Antonio Raffaele Iannaccone',                   # Type in your name
   author_email = 'antonio@ariseo.sk',      # Type in your E-Mail
   url = 'https://github.com/neisor/caffeination',   # Provide either the link to your github or to your website
-  keywords = ['caffeination', 'caffe', 'caffeine'],   # Keywords that define your package best
+  keywords = ['caffeination', 'caffe', 'caffeine', 'sleep preventer'],   # Keywords that define your package best
   install_requires=[
           'pyautogui'
       ],
