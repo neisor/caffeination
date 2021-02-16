@@ -1,2 +1,3 @@
-import caffeination
-__version__ == "0.0.1"
+from caffeination import *
+
+__version__ == "0.1"

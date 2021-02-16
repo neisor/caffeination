@@ -1,10 +1,16 @@
 from distutils.core import setup
+import setuptools
+
+with open("README.md", "r") as f:
+    long_description = fh.read()
+    
 setup(
-  name = 'caffeination',         # How you named your package folder (MyLib)
-  packages = ['caffeination'],   # Chose the same as "name"
+  name = 'caffeination',
+  packages = ['caffeination'],
   version = '0.1', 
   license='MIT',
-  description = 'Caffeination makes sure your computes does not go to sleep. It is a sleep preventer.',   # Give a short description about your library
+  description = 'Caffeination makes sure your computes does not go to sleep. It is a sleep preventer.',
+  long_description = long_description
   author = 'Antonio Raffaele Iannaccone',                   # Type in your name
   author_email = 'antonio@ariseo.sk',      # Type in your E-Mail
   url = 'https://github.com/neisor/caffeination',   # Provide either the link to your github or to your website
@@ -23,4 +29,6 @@ setup(
     'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
   ],
+  py_modules=["caffeination.py"],
+  package_dir={'': ''}
 )

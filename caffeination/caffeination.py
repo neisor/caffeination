@@ -2,7 +2,7 @@ import pyautogui
 import time
 import sys
 
-def caffeination(seconds):
+def main(seconds):
     try:
         print('Caffeination started')
         print(f'Hotkey to prevent sleep will be pressed every {seconds} seconds...')
@@ -45,4 +45,4 @@ except:
     sys.exit()
 
 if __name__ == "__main__":
-    caffeination(seconds)
+    main(seconds)
