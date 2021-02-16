@@ -5,7 +5,6 @@ with open("README.md", "r") as f:
     
 setuptools.setup(
   name = 'caffeination',
-  packages = ['caffeination'],
   version = '0.1', 
   license='MIT',
   description = 'Caffeination makes sure your computes does not go to sleep. It is a sleep preventer.',
