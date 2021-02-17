@@ -38,8 +38,11 @@ def run_caffeination(seconds):
         print('Caffeination started')
         print(f'Hotkey to prevent sleep will be pressed every {seconds} seconds...')
         print('Press CTRL + C to stop caffeination')
+        pyautogui.FAILSAFE = False
         while True:
-            pyautogui.hotkey('ctrl')
+            mouse_x, mouse_y = pyautogui.position()
+            pyautogui.moveTo(mouse_x + 1, mouse_y + 1)
+            pyautogui.moveTo(mouse_x - 1, mouse_y - 1)
             time.sleep(seconds)
     except KeyboardInterrupt:
         print('\nCaffeination stopped')
