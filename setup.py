@@ -13,6 +13,7 @@ setuptools.setup(
   author = 'Antonio Raffaele Iannaccone',
   author_email = 'antonio@ariseo.sk',
   url = 'https://github.com/neisor/caffeination',
+  download_url = 'https://github.com/neisor/caffeination/releases/download/Caffeination0.1/caffeination-0.1.tar.gz',
   keywords = ['caffeination', 'caffe', 'caffeine', 'sleep preventer'],
   install_requires=[
           'pyautogui'
