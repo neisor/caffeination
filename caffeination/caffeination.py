@@ -36,7 +36,7 @@ def check_args():
 def run_caffeination(seconds):
     try:
         print('Caffeination started')
-        print(f'Hotkey to prevent sleep will be pressed every {seconds} seconds...')
+        print(f'A background action to prevent sleep will take place every {seconds} seconds...')
         print('Press CTRL + C to stop caffeination')
         pyautogui.FAILSAFE = False
         while True:
